@@ -201,31 +201,21 @@ header {
   margin: 16px 0;
   width: 100%;
 }
-#avatar {
-  float: left;
-  margin-right: 20px;
-  border-radius: 50%;
-  width:100px;
-  height:150px;
-}
 
 .container {
   content: "";
   clear: both;
   display: table;
-}
+} 
 
 
 .container span {
- font-size: 20px;
-  margin-right: 15px;
+ font-style: italic; 
+  font-size: 20px;
+ margin-right: 15px;
+
 }
 
-  .container img {
-      margin: auto;
-      float: none;
-      display: block;
-  }
 /* ----------------------------------------Footer */
 
 footer {
