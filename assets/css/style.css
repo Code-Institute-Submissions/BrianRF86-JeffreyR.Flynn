@@ -313,8 +313,29 @@ footer {
 
 /* ----------------------------------------Carousel */
 
-.slides {
-    
+.d-block {
+    height: 350px;
+    width: 70%;
+}
+
+/*-----------------------------------------Products*/
+
+.grid-containter {
+  display: grid;
+  grid-template-rows: auto / auto auto;;
+  background-color: rgb(150, 161, 170);
+  padding: 10px;
+}
+
+
+.prod {
+height: auto;
+width: auto;
+  background-color: #007bff;
+  border: solid;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 /* ----------------------------------------Contact Form */
 
@@ -323,6 +344,7 @@ footer {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
+    color: #86A4B6;
 }
 
 .center-form {
