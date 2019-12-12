@@ -103,7 +103,7 @@ header {
 
 
 .logo {
-    background: url("/assets/images/about_me/logo4.png");
+    background: url("../images/about_me/logo4.png");
     object-fit: cover;
     size: 99%;
     background-position: center;
@@ -116,7 +116,7 @@ header {
 }
 
 .bg-color-name-title {
-    background-image: url("/assets/images/Background/beach3.PNG");
+    background-image: url("../images/Background/beach3.PNG");
      background-repeat: no-repeat;
      background-size: 100%
 
@@ -313,19 +313,37 @@ margin-bottom: 20px;
 
 }
 
-.item{
+.item {
 height:360px;
 width: 100%;
 object-fit: contain;
 }
-    
-
+#slide1{
+  background-image: url("../images/Background/mountainside 2.jpeg");
+   background-repeat: no-repeat;
+     background-size: 100%;
+}
+#slide2{
+background-image: url("../images/Background/mountainside1.jpeg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#slide3{
+background-image: url("../images/Background/porthgain.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#slide4{
+background-image: url("../images/Background/beach3.PNG");
+background-repeat: no-repeat;
+background-size: 100%;
+}
 /*-----------------------------------------Products*/
 
 
 }
 .grid-containter {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: auto auto auto;
     background-color: #F9D199;
     margin: 20px;
@@ -334,23 +352,79 @@ object-fit: contain;
 
 .prod {
     display: inline-grid;
-    width: 550px;
-    height: 550px;
     Margin: 20px;
-   background-color: #86A4B6;
   border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 30px;
-  text-align: center;
+height:350px;
+width: 350px; 
+position: relative; 
+left: 150px;
 }
-.prod > img {
-   width: 350px;
-    height: 350px; 
-}
-
 .grid-containter > h2 {
     margin: 20px;
     padding: 20px;
     border: 2px solid #e67e22;
+}
+
+#prod1{
+background-image: url("../images/products/barnicle1.png") ;
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+#prod2{
+background-image: url("../images/products/lobster1.png") ;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+
+#prod3{
+background-image: url("../images/products/spidercrab1.png") ;
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+
+#prod4{
+background-image: url("../images/products/octo21.png") ;
+background-repeat: no-repeat;
+background-size: 100%;
+object-fit: cover;
+}
+
+#prod5{
+    background-image: url("../images/products/seahorse.png") ;
+    background-repeat: no-repeat;
+background-size: 100%;
+object-fit: cover;
+}
+
+#prod6{
+    background-image: url("../images/products/starfish1.png") ;
+    background-repeat: no-repeat;
+background-size: 100%;
+object-fit: cover;
+}
+
+#prod7{
+    background-image: url("../images/products/hangingcrab1.png") ;
+    background-repeat: no-repeat;
+background-size: 100%;
+object-fit: cover;
+}
+
+#prod8{
+background-image: url("../images/products/minicrab21.png") ;
+background-repeat: no-repeat;
+background-size:100%;
+object-fit: contain;
+}
+
+#prod9 {
+    background-image: url("../images/products/crab front1.png") ;
+    background-repeat: no-repeat;
+object-fit: contain;
 }
 
 /* ----------------------------------------Contact Form */
